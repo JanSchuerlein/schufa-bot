@@ -20,3 +20,4 @@ mv ./chromedriver-linux64/chromedriver /usr/bin/chromedriver
 rm ./chromedriver-linux64/LICENSE.chromedriver
 chmod +x /usr/bin/chromedriver
 rm -r chromedriver-linux64
+rm chromedriver-linux64.zip
