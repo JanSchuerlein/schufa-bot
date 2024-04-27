@@ -12,7 +12,7 @@ dpkg -i ./google-chrome-stable_current_amd64.deb
 apt install -f -y
 rm ./google-chrome-stable_current_amd64.deb
 
-printf '\n\n\nDownloading and installing the latest chromedriver version 114.* (v. 04/2024)...\n\n\n'
+printf '\n\n\nDownloading and installing the latest chromedriver version 124.* (v. 04/2024)...\n\n\n'
 
 wget https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.91/linux64/chromedriver-linux64.zip
 unzip chromedriver-linux64.zip
