@@ -16,7 +16,7 @@ printf '\n\n\nDownloading and installing the latest chromedriver version 114.* (
 
 wget https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.91/linux64/chromedriver-linux64.zip
 unzip chromedriver-linux64.zip
-mv ./chromedriver /usr/bin/chromedriver
-rm ./LICENSE.chromedriver
+mv ./chromedriver-linux64/chromedriver /usr/bin/chromedriver
+rm ./chromedriver-linux64/LICENSE.chromedriver
 chmod +x /usr/bin/chromedriver
-rm -r chromedriver-linux64.zip
+rm -r chromedriver-linux64
