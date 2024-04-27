@@ -16,6 +16,8 @@ check_config_file = os.path.isfile(config_file_path)
 if not check_config_file:
     print('Could not find config file, creating one from template.')
     shutil.copyfile(current_directory + '/config_template.json', config_file_path)
+    print('Update the config.json file with your credentials and restart the bot')
+    exit(0)
 
 with open(config_file_path) as config_file:
     config = json.load(config_file)
