@@ -13,6 +13,6 @@
     },
     "chrome_options": {
         "headless": true,
-        "detached": true
+        "detached": false
     }
 }
