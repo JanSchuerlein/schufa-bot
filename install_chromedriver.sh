@@ -14,7 +14,7 @@ rm ./google-chrome-stable_current_amd64.deb
 
 printf '\n\n\nDownloading and installing the latest chromedriver version 114.* (v. 04/2024)...\n\n\n'
 
-wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+wget https://storage.googleapis.com/chrome-for-testing-public/124.0.6367.91/linux64/chromedriver-linux64.zip
 unzip chromedriver_linux64.zip
 mv ./chromedriver /usr/bin/chromedriver
 rm ./LICENSE.chromedriver
