@@ -1,0 +1,18 @@
+{
+    "schufa": {
+        "username": "your-schufa-account@example.com",
+        "password": ""
+    },
+    "2fa_api": {
+        "url": "https://your-backend-api.example.com/schufa/2fa-pin",
+        "authorization": ""
+    },
+    "score_report": {
+        "url": "https://your-backend-api.example.com/schufa/score",
+        "authorization": ""
+    },
+    "chrome_options": {
+        "headless": true,
+        "detached": true
+    }
+}
