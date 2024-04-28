@@ -74,11 +74,5 @@ Um die 2FA SMS Sicherheitscodes die von der Schufa gesendet werden, automatisch 
 
 Im nachfolgenden Beispiel werden wir durch eine iOS Automation in der App Kurzbefehle, das iPhone anweisen, bei einer eingehenden Schufa SMS, die API-URL mit dem 2FA SMS Token aufzurufen, darüber wird dann automatisch der Sicherheitscode übermittelt. Der Bot ruft nach einer Kurzen Verzögerung die gleiche API URL auf, um den Code abzurufen. Das gleiche lässt sich natürlich auch unter Android einrichten.
 
-![IMG_2409](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/39773424-40c1-4a15-b187-2ac2d4740fb1)
-
-![IMG_2411](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/f117e4b1-c73d-4eb7-9c7d-177412a935e4)
-
-![IMG_2410](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/d053e792-6ead-4205-bf2a-e12cb9634363)
-
-
+![IMG_2412](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/59144f36-2f27-48dd-8f0e-23552dd985ee)![IMG_2411](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/ffd31056-3376-4c3f-88f3-9740c17b2e4d)![IMG_2410](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/63fa4272-50b4-416d-a126-73434d3731be)
 
