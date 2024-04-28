@@ -1,6 +1,7 @@
 # Schufa Bot 
 
 Der Schufa Bot nutzt das Selenium Framework in Python um mit einem simulierten Chrome-Browser den aktuellen Schufa-Score automatisch aus dem meineschufa.de Portal abzufragen. 
+
 Aufgrund von Cookie-Tracking und der L7 DDos-Protection von Link11 sind reine HTTPS-Requests nicht mehr ohne Weiteres möglich, daher der Weg über Selenium.
 
 Da das Schufa-Portal für die Datenabfrage zusätzlich eine 2FA-Authentifizierung über SMS erfordert, muss die Weiterleitung der SMS-Nachrichten auch automatisch über eine Middleware API an den Bot erfolgen.
@@ -74,6 +75,7 @@ Weitere Infos zum Thema SMS 2FA findest du im nächsten Abschnitt
 Um die 2FA SMS Sicherheitscodes die von der Schufa gesendet werden, automatisch an den Bot weiterleiten zu können, ist der Austausch über eine beliebige Key-Value API (HTTPS/GET) notwendig. In den kommenden Tagen wird an dieser Stelle ein Beispiel-Repo mit einer simplen PHP-API verlinkt. 
 
 Im nachfolgenden Beispiel werden wir durch eine iOS Automation in der App Kurzbefehle, das iPhone anweisen, bei einer eingehenden Schufa SMS, die API-URL mit dem 2FA SMS Token aufzurufen, darüber wird dann automatisch der Sicherheitscode übermittelt. Der Bot ruft nach einer Kurzen Verzögerung die gleiche API URL auf, um den Code abzurufen. Das gleiche lässt sich natürlich auch unter Android einrichten.
+
 
 ![IMG_2412](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/59144f36-2f27-48dd-8f0e-23552dd985ee)![IMG_2411](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/ffd31056-3376-4c3f-88f3-9740c17b2e4d)![IMG_2410](https://github.com/JanSchuerlein/schufa-bot/assets/2477821/63fa4272-50b4-416d-a126-73434d3731be)
 
