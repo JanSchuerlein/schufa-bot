@@ -1,6 +1,7 @@
 # Schufa Bot 
 
-Der Schufa Bot nutzt das Selenium Framework in Python um mit einem simulierten Chrome-Browser den aktuellen Schufa-Score automatisch aus dem meineschufa.de Portal abzufragen. Aufgrund von Cookie-Tracking und der L7 DDos-Protection von Link11 sind reine HTTPS-Requests nicht mehr ohne Weiteres möglich, daher der Weg über Selenium.
+Der Schufa Bot nutzt das Selenium Framework in Python um mit einem simulierten Chrome-Browser den aktuellen Schufa-Score automatisch aus dem meineschufa.de Portal abzufragen. 
+Aufgrund von Cookie-Tracking und der L7 DDos-Protection von Link11 sind reine HTTPS-Requests nicht mehr ohne Weiteres möglich, daher der Weg über Selenium.
 
 Da das Schufa-Portal für die Datenabfrage zusätzlich eine 2FA-Authentifizierung über SMS erfordert, muss die Weiterleitung der SMS-Nachrichten auch automatisch über eine Middleware API an den Bot erfolgen.
 
