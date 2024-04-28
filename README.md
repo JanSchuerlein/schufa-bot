@@ -6,7 +6,7 @@ Aufgrund von Cookie-Tracking und der L7 DDos-Protection von Link11 sind reine HT
 
 Da das Schufa-Portal für die Datenabfrage zusätzlich eine 2FA-Authentifizierung über SMS erfordert, muss die Weiterleitung der SMS-Nachrichten auch automatisch über eine Middleware API an den Bot erfolgen.
 
-Das ist hier beispielhaft über eine simple GET/POST API und eine iOS Automation bei eingehender SMS gelöst, selbstverständlich können auch virtuelle VOIP-Provider/Simkarten dafür genutzt werden, der beschriebene Weg ist der einfachste, ohne seine hinterlegte Rufnummer bei der Schufa ändern zu müssen.
+Das ist hier beispielhaft über eine simple GET API und eine iOS Automation bei eingehender SMS gelöst, selbstverständlich können auch virtuelle VOIP-Provider/Simkarten dafür genutzt werden, der beschriebene Weg ist der einfachste, ohne seine hinterlegte Rufnummer bei der Schufa ändern zu müssen.
 
 Das Repo ist auf eine Installation und Verwendung unter Linux, vorrangig auf Debian 12 ausgerichtet. 
 
