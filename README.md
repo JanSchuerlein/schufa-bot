@@ -27,7 +27,7 @@ Aktueller Stand des Bots: *04/2024*
 
 ## Bot Installation
 
-Das Repository herunterladen und clonen, anschließend das **install.sh** Script ausführen. 
+Das Repository clonen, anschließend das **install.sh** Script ausführen. 
 
 ```bash
 git clone git@github.com:JanSchuerlein/schufa-bot.git
